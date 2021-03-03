@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout<<"QUESTION 1 \n";
+  cout<<"size of char:1 byte \n";
+  cout<<"size of int:4 bytes \n";
+  cout<<"size of float:4 bytes \n";
+  cout<<"size of double:4 bytes \n";
+  cout<<"------------------------------------ \n";
+  cout<<"QUESTION 2 \n";
+  int a,b;
+  cout<<"Enter first number:";
+  cin>>a;
+  
+  cout<<"Enter second number:";
+  cin>>b;
+  cout<<"PRODUCT:"<<a*b;
+    return 0;
+}
